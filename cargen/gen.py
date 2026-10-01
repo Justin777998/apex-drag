@@ -18,7 +18,10 @@ def log(*a):
 
 def connect(space):
     try:
-        c = Client(space, hf_token=TOKEN, verbose=False) if TOKEN else Client(space, verbose=False)
+        if not TOKEN: c = Client(space, verbose=False)
+        else:
+            try: c = Client(space, token=TOKEN, verbose=False)
+            except TypeError: c = Client(space, hf_token=TOKEN, verbose=False)
         return c
     except Exception as e:
         log('connect failed', space, repr(e)[:300]); return None
