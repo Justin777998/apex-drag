@@ -27,6 +27,8 @@ jobs:
       - run: pip install -q "gradio_client>=1.3" pillow
       - name: Generate
         run: python cargen/gen.py
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         continue-on-error: true
       - name: Commit results
         run: |
