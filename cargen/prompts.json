@@ -1,0 +1,12 @@
+[
+  {
+    "id": "falke_gt",
+    "seed": 11,
+    "prompt": "studio product photograph of a realistic modern two-door sports coupe, original design without any brand, front engine, long hood, short rear deck, sharp shoulder line, slim LED headlights joined by a black horizontal grille band, large lower air intake, 20 inch dark multi-spoke wheels, metallic deep blue paint, three-quarter front view from the left side, the entire car is visible and centered, plain light grey seamless background, soft even studio lighting, no logos, no emblems, no text, no license plate, photorealistic, sharp focus"
+  },
+  {
+    "id": "velocita_ottanta",
+    "seed": 23,
+    "prompt": "studio product photograph of a realistic mid-engine supercar, original design without any brand, low and wide wedge shape, large side air intakes behind the doors, slim angular headlights, engine cover with louvers, 20 inch silver five-spoke wheels, glossy red paint, three-quarter front view from the left side, the entire car is visible and centered, plain light grey seamless background, soft even studio lighting, no logos, no emblems, no text, no license plate, photorealistic, sharp focus"
+  }
+]

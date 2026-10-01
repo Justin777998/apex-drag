@@ -1,0 +1,36 @@
+name: cargen
+# Erzeugt Autos mit frei lizenzierten Open-Source-KIs (FLUX.1 schnell -> Bild, TRELLIS -> 3D)
+# und legt die Ergebnisse im Zweig car-gen unter cargen/out/ ab.
+on:
+  push:
+    branches: [car-gen]
+    paths: ['cargen/prompts.json', 'cargen/gen.py', '.github/workflows/cargen.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cargen
+  cancel-in-progress: false
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: car-gen
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -q "gradio_client>=1.3" pillow
+      - name: Generate
+        run: python cargen/gen.py
+        continue-on-error: true
+      - name: Commit results
+        run: |
+          git config user.name "cargen-bot"
+          git config user.email "cargen-bot@users.noreply.github.com"
+          git add cargen/out
+          git commit -m "cargen: results $(date -u +%FT%TZ)" || echo "nothing to commit"
+          git pull --rebase origin car-gen || true
+          git push origin HEAD:car-gen
