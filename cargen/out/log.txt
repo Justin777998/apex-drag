@@ -40,3 +40,36 @@
 13:02:45 connect failed microsoft/TRELLIS ValueError('The current space is in the invalid state: CONFIG_ERROR. Please contact the owner to fix this.')
 13:02:46 connect failed stabilityai/TripoSR ValueError('The current space is in the invalid state: RUNTIME_ERROR. Please contact the owner to fix this.')
 13:02:46 === done
+13:03:46 === run 2 jobs, token: False
+13:03:46 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+13:04:08 glb ok trellis-community/TRELLIS 1496140
+13:04:08 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+13:04:09 3d failed trellis-community/TRELLIS AppError('You have exceeded your ZeroGPU quota (120s requested vs. 160s left). Try again in 23:59:37. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens')
+13:04:09 connect failed JeffreyXiang/TRELLIS ValueError('The current space is in the invalid state: CONFIG_ERROR. Please contact the owner to fix this.')
+13:04:09 connect failed microsoft/TRELLIS ValueError('The current space is in the invalid state: CONFIG_ERROR. Please contact the owner to fix this.')
+13:04:09 connect failed stabilityai/TripoSR ValueError('The current space is in the invalid state: RUNTIME_ERROR. Please contact the owner to fix this.')
+13:04:09 === done
