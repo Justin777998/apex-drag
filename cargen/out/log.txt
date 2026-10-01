@@ -1,0 +1,42 @@
+13:02:32 === run 2 jobs, token: False
+13:02:33 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+13:02:36 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/falke_gt/concept.png
+13:02:37 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+13:02:38 no /image_to_3d
+13:02:38 connect failed JeffreyXiang/TRELLIS ValueError('The current space is in the invalid state: CONFIG_ERROR. Please contact the owner to fix this.')
+13:02:39 connect failed microsoft/TRELLIS ValueError('The current space is in the invalid state: CONFIG_ERROR. Please contact the owner to fix this.')
+13:02:39 connect failed stabilityai/TripoSR ValueError('The current space is in the invalid state: RUNTIME_ERROR. Please contact the owner to fix this.')
+13:02:39 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+13:02:43 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/velocita_ottanta/concept.png
+13:02:44 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+13:02:45 no /image_to_3d
+13:02:45 connect failed JeffreyXiang/TRELLIS ValueError('The current space is in the invalid state: CONFIG_ERROR. Please contact the owner to fix this.')
+13:02:45 connect failed microsoft/TRELLIS ValueError('The current space is in the invalid state: CONFIG_ERROR. Please contact the owner to fix this.')
+13:02:46 connect failed stabilityai/TripoSR ValueError('The current space is in the invalid state: RUNTIME_ERROR. Please contact the owner to fix this.')
+13:02:46 === done
