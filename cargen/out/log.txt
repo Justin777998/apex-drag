@@ -99,3 +99,10 @@
   /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
 13:11:50 image failed black-forest-labs/FLUX.1-schnell AppError('You have exceeded your ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens')
 13:11:50 === done
+13:14:42 === run 5 jobs, token: False
+13:14:42 skip falke_gt
+13:14:42 skip velocita_ottanta
+13:14:42 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+13:14:45 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/falke_m_c/concept.png
+13:14:45 === done
