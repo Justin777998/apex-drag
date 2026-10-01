@@ -1,30 +1,160 @@
 [
  {
-  "id": "falke_gt",
-  "seed": 11,
-  "prompt": "studio product photograph of a realistic modern two-door sports coupe, original design without any brand, front engine, long hood, short rear deck, sharp shoulder line, slim LED headlights joined by a black horizontal grille band, large lower air intake, 20 inch dark multi-spoke wheels, metallic deep blue paint, three-quarter front view from the left side, the entire car is visible and centered, plain light grey seamless background, soft even studio lighting, no logos, no emblems, no text, no license plate, photorealistic, sharp focus"
+  "id": "bg_city_night",
+  "seed": 500,
+  "image_only": true,
+  "w": 1536,
+  "h": 512,
+  "prompt": "wide panoramic photograph of a city skyline at night beyond an empty industrial street, distant skyscrapers with lit windows, orange sodium street lights, light haze, seen from street level, no cars, no people, no text, no logos, photorealistic, cinematic, sharp details"
  },
  {
-  "id": "velocita_ottanta",
-  "seed": 23,
-  "prompt": "studio product photograph of a realistic mid-engine supercar, original design without any brand, low and wide wedge shape, large side air intakes behind the doors, slim angular headlights, engine cover with louvers, 20 inch silver five-spoke wheels, glossy red paint, three-quarter front view from the left side, the entire car is visible and centered, plain light grey seamless background, soft even studio lighting, no logos, no emblems, no text, no license plate, photorealistic, sharp focus"
+  "id": "bg_harbor_night",
+  "seed": 501,
+  "image_only": true,
+  "w": 1536,
+  "h": 512,
+  "prompt": "wide panoramic photograph of a container harbor at night, stacked shipping containers, tall gantry cranes with warning lights, calm water reflections, seen from street level, no cars, no people, no text, no logos, photorealistic, cinematic, sharp details"
+ },
+ {
+  "id": "bg_airfield_dusk",
+  "seed": 502,
+  "image_only": true,
+  "w": 1536,
+  "h": 512,
+  "prompt": "wide panoramic photograph of an empty airfield at dusk, distant hangars and control tower, runway lights, purple and orange sky, flat horizon, seen from street level, no cars, no people, no text, no logos, photorealistic, cinematic, sharp details"
+ },
+ {
+  "id": "bg_industrial_night",
+  "seed": 503,
+  "image_only": true,
+  "w": 1536,
+  "h": 512,
+  "prompt": "wide panoramic photograph of an industrial area at night, old warehouses, chimneys, fences, sodium lights, wet ground, seen from street level, no cars, no people, no text, no logos, photorealistic, cinematic, sharp details"
+ },
+ {
+  "id": "bg_bridge_night",
+  "seed": 504,
+  "image_only": true,
+  "w": 1536,
+  "h": 512,
+  "prompt": "wide panoramic photograph of a large suspension bridge over a wide river at night, illuminated cables, city lights far away, seen from street level, no cars, no people, no text, no logos, photorealistic, cinematic, sharp details"
+ },
+ {
+  "id": "bg_dragway_dusk",
+  "seed": 505,
+  "image_only": true,
+  "w": 1536,
+  "h": 512,
+  "prompt": "wide panoramic photograph of a drag racing strip at dusk, empty grandstands, tall light towers, start tree in the distance, seen from street level, no cars, no people, no text, no logos, photorealistic, cinematic, sharp details"
+ },
+ {
+  "id": "tex_asphalt",
+  "seed": 600,
+  "image_only": true,
+  "w": 1024,
+  "h": 1024,
+  "prompt": "seamless tileable texture, top-down flat photograph of dark asphalt road surface with fine aggregate and subtle tire marks, even lighting, no shadows, no text, photorealistic, high detail"
+ },
+ {
+  "id": "tex_concrete",
+  "seed": 601,
+  "image_only": true,
+  "w": 1024,
+  "h": 1024,
+  "prompt": "seamless tileable texture, top-down flat photograph of polished grey concrete garage floor with subtle stains, even lighting, no shadows, no text, photorealistic, high detail"
+ },
+ {
+  "id": "tex_brick",
+  "seed": 602,
+  "image_only": true,
+  "w": 1024,
+  "h": 1024,
+  "prompt": "seamless tileable texture, top-down flat photograph of old dark red brick wall, even lighting, no shadows, no text, photorealistic, high detail"
+ },
+ {
+  "id": "tex_metal",
+  "seed": 603,
+  "image_only": true,
+  "w": 1024,
+  "h": 1024,
+  "prompt": "seamless tileable texture, top-down flat photograph of dark grey corrugated metal wall panels, even lighting, no shadows, no text, photorealistic, high detail"
+ },
+ {
+  "id": "garage_bg",
+  "seed": 700,
+  "image_only": true,
+  "w": 1536,
+  "h": 640,
+  "prompt": "wide photograph of the interior of a modern dark car tuning workshop at night, tool cabinets along the walls, tire racks, warm work lights and subtle neon accents, empty floor in the center, no cars, no people, no text, no logos, photorealistic"
  },
  {
   "id": "falke_m_a",
   "seed": 101,
-  "image_only": true,
   "prompt": "studio product photograph of a realistic two-door compact performance coupe from an invented German premium brand, original design, front engine with rear-wheel-drive stance, muscular widened fenders, aggressive front bumper with large lower air intakes, slim angular LED headlights connected by one narrow horizontal black grille band across the whole front, sculpted hood with two sharp creases, black carbon roof, black side skirts, small rear lip spoiler, 19 inch gold forged wheels, solid white paint, three-quarter front view from the left side, the entire car is visible and centered, plain light grey seamless background, soft even studio lighting, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
  },
  {
-  "id": "falke_m_b",
-  "seed": 202,
-  "image_only": true,
-  "prompt": "studio product photograph of a realistic two-door compact performance coupe from an invented German premium brand, original design, front engine with rear-wheel-drive stance, muscular widened fenders, aggressive front bumper with large lower air intakes, slim angular LED headlights connected by one narrow horizontal black grille band across the whole front, sculpted hood with two sharp creases, black carbon roof, black side skirts, small rear lip spoiler, 19 inch black forged wheels, metallic dark blue paint, three-quarter front view from the left side, the entire car is visible and centered, plain light grey seamless background, soft even studio lighting, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+  "id": "kestrel",
+  "seed": 31,
+  "prompt": "studio product photograph of a realistic compact three-door hot hatchback with sporty front bumper and large air intakes, roof spoiler, 18 inch silver multi-spoke wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, silver metallic paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
  },
  {
-  "id": "falke_m_c",
-  "seed": 303,
-  "image_only": true,
-  "prompt": "studio product photograph of a realistic two-door compact performance coupe from an invented German premium brand, original design, front engine with rear-wheel-drive stance, muscular widened fenders, aggressive front bumper with large lower air intakes, slim angular LED headlights connected by one narrow horizontal black grille band across the whole front, sculpted hood with two sharp creases, black carbon roof, black side skirts, small rear lip spoiler, 19 inch bronze forged wheels, matte light grey paint, three-quarter front view from the left side, the entire car is visible and centered, plain light grey seamless background, soft even studio lighting, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+  "id": "sakura",
+  "seed": 32,
+  "prompt": "studio product photograph of a realistic two-door turbo sports coupe in 1990s style, angular body lines, large rear wing, 18 inch bronze multi-spoke wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, pearl white paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "thunder",
+  "seed": 33,
+  "prompt": "studio product photograph of a realistic modern muscle car with long hood and power bulge, aggressive wide front with large black grille, short rear deck, 20 inch black wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, gloss black paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "falke_r5",
+  "seed": 34,
+  "prompt": "studio product photograph of a realistic fast five-door estate wagon with wide flared fenders, aggressive bumpers, roof rails, 19 inch dark wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, dark slate blue paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "hayate",
+  "seed": 35,
+  "prompt": "studio product photograph of a realistic sharp angular four-seat grand touring coupe with wide body, large front air vents, hexagonal side vents, 20 inch dark wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, gunmetal grey paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "velocita_v12",
+  "seed": 36,
+  "prompt": "studio product photograph of a realistic mid-engine supercar, very low and wide, large air intakes behind the doors, slim sharp headlights, 20 inch silver wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, glossy red paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "aurora",
+  "seed": 37,
+  "prompt": "studio product photograph of a realistic futuristic hybrid hypercar, teardrop cockpit, long tail with integrated wing, deep aerodynamic tunnels in the doors, 21 inch black wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, white paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "vanguard70",
+  "seed": 38,
+  "prompt": "studio product photograph of a realistic classic muscle fastback from the early 1970s, long hood, chrome bumpers, round headlights set in a wide black grille, 15 inch chrome wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, dark red paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "pico",
+  "seed": 39,
+  "prompt": "studio product photograph of a realistic small five-door city car hatchback, cute rounded shape, 16 inch alloy wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, bright red paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "kaze",
+  "seed": 40,
+  "prompt": "studio product photograph of a realistic light two-door rear-wheel-drive sports coupe, compact and low, 18 inch bronze wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, white paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "serafina",
+  "seed": 41,
+  "prompt": "studio product photograph of a realistic small two-seat roadster with the soft top down, long hood, rounded fenders, 17 inch wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, red paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "vogt3",
+  "seed": 42,
+  "prompt": "studio product photograph of a realistic sporty mid-size sedan with sharp lines, quad exhaust tips, 19 inch dark wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, black metallic paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "granit",
+  "seed": 43,
+  "prompt": "studio product photograph of a realistic modern mid-size SUV with black plastic cladding and roof rails, 19 inch wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, dark blue paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
  }
 ]

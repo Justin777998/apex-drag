@@ -66,7 +66,7 @@ def first_path(res, ext=None):
         if isinstance(r, (list, tuple)): stack.extend(r)
     return None
 
-def make_image(prompt, dst, seed):
+def make_image(prompt, dst, seed, w=1024, h=768):
     for space in ('black-forest-labs/FLUX.1-schnell',):
         c = connect(space)
         if not c: continue
@@ -74,7 +74,7 @@ def make_image(prompt, dst, seed):
         api = '/infer' if '/infer' in sp.get('named_endpoints', {}) else next(iter(sp.get('named_endpoints', {})), None)
         if not api: continue
         try:
-            res = call(c, sp, api, prompt=prompt, seed=seed, randomize_seed=False, width=1024, height=768, num_inference_steps=4)
+            res = call(c, sp, api, prompt=prompt, seed=seed, randomize_seed=False, width=w, height=h, num_inference_steps=4)
             p = first_path(res)
             if p:
                 shutil.copy(p, dst); log('image ok', space, dst); return space
@@ -145,11 +145,11 @@ def main():
         d = os.path.join(OUT, j['id']); os.makedirs(d, exist_ok=True)
         info_p = os.path.join(d, 'info.json')
         info = json.load(open(info_p)) if os.path.exists(info_p) else {}
-        if info.get('glb') and not j.get('redo'): log('skip', j['id']); continue
+        if (info.get('glb') or (j.get('image_only') and os.path.exists(os.path.join(d, 'concept.png')))) and not j.get('redo'): log('skip', j['id']); continue
         seed = int(j.get('seed', 7))
         img = os.path.join(d, 'concept.png')
         if not os.path.exists(img) or j.get('redo'):
-            info['image_space'] = make_image(j['prompt'], img, seed)
+            info['image_space'] = make_image(j['prompt'], img, seed, j.get('w', 1024), j.get('h', 768))
         if os.path.exists(img) and not j.get('image_only'):
             info['model_space'] = make_3d(img, os.path.join(d, 'model.glb'), seed)
             info['glb'] = bool(info['model_space'])
