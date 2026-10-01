@@ -97,6 +97,12 @@ def make_3d(img, dst, seed):
             if '/preprocess_image' in eps:
                 r = call(c, sp, '/preprocess_image', _image=img)
                 pre = first_path(r) or img
+            if '/generate_and_extract_glb' in eps:
+                r = call(c, sp, '/generate_and_extract_glb', _image=pre, seed=seed, mesh_simplify=0.95, texture_size=1024)
+                p = first_path(r, '.glb')
+                if p:
+                    shutil.copy(p, dst); log('glb ok', space, os.path.getsize(dst)); return space
+                log('generate_and_extract_glb: no glb', str(r)[:400]); continue
             gen = '/image_to_3d' if '/image_to_3d' in eps else None
             if not gen: log('no /image_to_3d'); continue
             r = call(c, sp, gen, _image=pre, seed=seed, is_multiimage=False, ss_guidance_strength=7.5, ss_sampling_steps=12,
