@@ -106,3 +106,33 @@
   /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
 13:14:45 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/falke_m_c/concept.png
 13:14:45 === done
+13:21:56 === run 25 jobs, token: True
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed trellis-community/TRELLIS TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed JeffreyXiang/TRELLIS TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed microsoft/TRELLIS TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed stabilityai/TripoSR TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 connect failed black-forest-labs/FLUX.1-schnell TypeError("Client.__init__() got an unexpected keyword argument 'hf_token'")
+13:21:56 === done
