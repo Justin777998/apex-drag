@@ -1,12 +1,30 @@
 [
-  {
-    "id": "falke_gt",
-    "seed": 11,
-    "prompt": "studio product photograph of a realistic modern two-door sports coupe, original design without any brand, front engine, long hood, short rear deck, sharp shoulder line, slim LED headlights joined by a black horizontal grille band, large lower air intake, 20 inch dark multi-spoke wheels, metallic deep blue paint, three-quarter front view from the left side, the entire car is visible and centered, plain light grey seamless background, soft even studio lighting, no logos, no emblems, no text, no license plate, photorealistic, sharp focus"
-  },
-  {
-    "id": "velocita_ottanta",
-    "seed": 23,
-    "prompt": "studio product photograph of a realistic mid-engine supercar, original design without any brand, low and wide wedge shape, large side air intakes behind the doors, slim angular headlights, engine cover with louvers, 20 inch silver five-spoke wheels, glossy red paint, three-quarter front view from the left side, the entire car is visible and centered, plain light grey seamless background, soft even studio lighting, no logos, no emblems, no text, no license plate, photorealistic, sharp focus"
-  }
+ {
+  "id": "falke_gt",
+  "seed": 11,
+  "prompt": "studio product photograph of a realistic modern two-door sports coupe, original design without any brand, front engine, long hood, short rear deck, sharp shoulder line, slim LED headlights joined by a black horizontal grille band, large lower air intake, 20 inch dark multi-spoke wheels, metallic deep blue paint, three-quarter front view from the left side, the entire car is visible and centered, plain light grey seamless background, soft even studio lighting, no logos, no emblems, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "velocita_ottanta",
+  "seed": 23,
+  "prompt": "studio product photograph of a realistic mid-engine supercar, original design without any brand, low and wide wedge shape, large side air intakes behind the doors, slim angular headlights, engine cover with louvers, 20 inch silver five-spoke wheels, glossy red paint, three-quarter front view from the left side, the entire car is visible and centered, plain light grey seamless background, soft even studio lighting, no logos, no emblems, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "falke_m_a",
+  "seed": 101,
+  "image_only": true,
+  "prompt": "studio product photograph of a realistic two-door compact performance coupe from an invented German premium brand, original design, front engine with rear-wheel-drive stance, muscular widened fenders, aggressive front bumper with large lower air intakes, slim angular LED headlights connected by one narrow horizontal black grille band across the whole front, sculpted hood with two sharp creases, black carbon roof, black side skirts, small rear lip spoiler, 19 inch gold forged wheels, solid white paint, three-quarter front view from the left side, the entire car is visible and centered, plain light grey seamless background, soft even studio lighting, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "falke_m_b",
+  "seed": 202,
+  "image_only": true,
+  "prompt": "studio product photograph of a realistic two-door compact performance coupe from an invented German premium brand, original design, front engine with rear-wheel-drive stance, muscular widened fenders, aggressive front bumper with large lower air intakes, slim angular LED headlights connected by one narrow horizontal black grille band across the whole front, sculpted hood with two sharp creases, black carbon roof, black side skirts, small rear lip spoiler, 19 inch black forged wheels, metallic dark blue paint, three-quarter front view from the left side, the entire car is visible and centered, plain light grey seamless background, soft even studio lighting, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+ },
+ {
+  "id": "falke_m_c",
+  "seed": 303,
+  "image_only": true,
+  "prompt": "studio product photograph of a realistic two-door compact performance coupe from an invented German premium brand, original design, front engine with rear-wheel-drive stance, muscular widened fenders, aggressive front bumper with large lower air intakes, slim angular LED headlights connected by one narrow horizontal black grille band across the whole front, sculpted hood with two sharp creases, black carbon roof, black side skirts, small rear lip spoiler, 19 inch bronze forged wheels, matte light grey paint, three-quarter front view from the left side, the entire car is visible and centered, plain light grey seamless background, soft even studio lighting, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus"
+ }
 ]

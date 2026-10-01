@@ -150,7 +150,7 @@ def main():
         img = os.path.join(d, 'concept.png')
         if not os.path.exists(img) or j.get('redo'):
             info['image_space'] = make_image(j['prompt'], img, seed)
-        if os.path.exists(img):
+        if os.path.exists(img) and not j.get('image_only'):
             info['model_space'] = make_3d(img, os.path.join(d, 'model.glb'), seed)
             info['glb'] = bool(info['model_space'])
         info['prompt'] = j['prompt']; info['time'] = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())

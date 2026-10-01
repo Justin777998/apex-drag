@@ -6,6 +6,8 @@ on:
     branches: [car-gen]
     paths: ['cargen/prompts.json', 'cargen/gen.py', '.github/workflows/cargen.yml']
   workflow_dispatch:
+  schedule:
+    - cron: '17 13 * * *'
 permissions:
   contents: write
 concurrency:
