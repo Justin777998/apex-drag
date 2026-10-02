@@ -1,4 +1,7 @@
 {
  "prompt": "three-quarter front view from the front left corner of a realistic compact futuristic two-door hatchback coupe with a wedge profile, slim light strips front and rear, short overhangs, 17 inch silver wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, orange paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
- "time": "2026-10-02T06:42:03Z"
+ "time": "2026-10-02T06:49:22Z",
+ "model_space": "trellis-community/TRELLIS",
+ "glb": true,
+ "picked": 0
 }

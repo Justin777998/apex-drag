@@ -1895,3 +1895,184 @@
 06:43:10 skip thunderdp
 06:43:10 skip vanguardpm
 06:43:10 === done
+06:47:07 === run 53 jobs, token: True
+06:47:07 skip bg_city_night
+06:47:07 skip bg_harbor_night
+06:47:07 skip bg_airfield_dusk
+06:47:07 skip bg_industrial_night
+06:47:07 skip bg_bridge_night
+06:47:07 skip bg_dragway_dusk
+06:47:07 skip tex_asphalt
+06:47:07 skip tex_concrete
+06:47:07 skip tex_brick
+06:47:07 skip tex_metal
+06:47:07 skip garage_bg
+06:47:07 skip falke_m_a
+06:47:07 skip kestrel
+06:47:07 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:47:31 glb ok trellis-community/TRELLIS 1691060
+06:47:31 skip thunder
+06:47:31 skip falke_r5
+06:47:31 skip hayate
+06:47:31 skip velocita_v12
+06:47:31 skip aurora
+06:47:31 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:47:53 glb ok trellis-community/TRELLIS 1503900
+06:47:53 skip pico
+06:47:53 skip kaze
+06:47:53 skip serafina
+06:47:53 skip vogt3
+06:47:53 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:48:16 glb ok trellis-community/TRELLIS 1527120
+06:48:16 skip lumen
+06:48:16 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:48:37 glb ok trellis-community/TRELLIS 1532040
+06:48:37 skip nordwind
+06:48:38 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:48:41 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/ostrava/cand_0.png
+06:48:42 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:48:45 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/ostrava/cand_1.png
+06:48:45 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:48:52 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/ostrava/cand_2.png
+06:48:53 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:48:56 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/ostrava/cand_3.png
+06:48:56 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:49:22 glb ok trellis-community/TRELLIS 1619224
+06:49:22 skip falkes
+06:49:23 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:49:26 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/vanguard64/cand_0.png
+06:49:27 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:49:30 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/vanguard64/cand_1.png
+06:49:30 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:49:34 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/vanguard64/cand_2.png
+06:49:34 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:49:37 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/vanguard64/cand_3.png
+06:49:37 skip granitv6
+06:49:37 skip raiden
+06:49:37 skip vogt8
+06:49:37 skip granitv8
+06:49:37 skip serafinav6
+06:49:37 skip ardent
+06:49:37 skip kazet
+06:49:37 skip thunderwb
+06:49:37 skip ardentt
+06:49:37 skip granith
+06:49:38 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:49:59 glb ok trellis-community/TRELLIS 1484752
+06:49:59 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:50:22 glb ok trellis-community/TRELLIS 1638100
+06:50:22 skip velocitas
+06:50:22 skip serafinac
+06:50:22 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:50:44 glb ok trellis-community/TRELLIS 1560084
+06:50:44 skip kaldrav
+06:50:44 skip velocita80
+06:50:44 skip nyx
+06:50:44 skip graf
+06:50:44 skip thunderdp
+06:50:44 skip vanguardpm
+06:50:44 === done
