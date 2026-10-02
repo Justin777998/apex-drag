@@ -101,7 +101,8 @@
   "id": "sakura",
   "seed": 3010,
   "prompt": "three-quarter front view from the front left corner of a realistic two-door turbo sports coupe with a long nose, slim angular headlights, wide fender flares and a small ducktail spoiler, 18 inch bronze wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, pearl white paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
-  "cands": 4
+  "cands": 4,
+  "pick": 1
  },
  {
   "id": "thunder",
@@ -132,7 +133,8 @@
   "id": "vanguard70",
   "seed": 3020,
   "prompt": "three-quarter front view from the front left corner of a realistic retro-futuristic muscle fastback concept with a sharp wedge nose, a thin full-width light bar, a long hood with twin vents and a sloping fastback roof, 19 inch dark wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, dark red paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
-  "cands": 4
+  "cands": 4,
+  "pick": 3
  },
  {
   "id": "pico",
@@ -158,7 +160,8 @@
   "id": "granit",
   "seed": 3080,
   "prompt": "three-quarter front view from the front left corner of a realistic modern mid-size SUV with smooth angular body panels, a closed body-colored nose panel, slim split LED headlights, black wheel arch cladding and roof rails, 19 inch wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, dark blue paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
-  "cands": 4
+  "cands": 4,
+  "pick": 1
  },
  {
   "id": "lumen",
@@ -169,7 +172,8 @@
   "id": "orvel",
   "seed": 3070,
   "prompt": "three-quarter front view from the front left corner of a realistic mid-size family sedan with a smooth modern design, a slim full-width light bar between the headlights and a black lower intake, 18 inch wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, slate grey paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
-  "cands": 4
+  "cands": 4,
+  "pick": 2
  },
  {
   "id": "nordwind",
@@ -178,15 +182,16 @@
  },
  {
   "id": "ostrava",
-  "seed": 3060,
-  "prompt": "three-quarter front view from the front left corner of a realistic retro-modern small grand tourer coupe concept with a long hood, a short fastback cabin, angular rectangular headlights and a flat chopped tail, 17 inch silver wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, yellow paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
+  "seed": 3160,
+  "prompt": "three-quarter front view from the front left corner of a realistic small modern two-door grand tourer coupe with sharp angular creases, a long hood, slim LED headlights, a short fastback roof and 18 inch silver wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, yellow paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
   "cands": 4
  },
  {
   "id": "tsubame",
   "seed": 3000,
   "prompt": "three-quarter front view from the front left corner of a realistic compact futuristic two-door hatchback coupe with a wedge profile, slim light strips front and rear, short overhangs, 17 inch silver wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, orange paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
-  "cands": 4
+  "cands": 4,
+  "pick": 0
  },
  {
   "id": "falkes",
@@ -195,8 +200,8 @@
  },
  {
   "id": "vanguard64",
-  "seed": 3030,
-  "prompt": "three-quarter front view from the front left corner of a realistic retro-futuristic muscle coupe concept with a squared-off body, slim rectangular LED headlights set into a wide black grille band, a long flat hood with a raised center bulge and a short tail, 18 inch polished five-spoke wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, dark green paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
+  "seed": 3130,
+  "prompt": "three-quarter front view from the front left corner of a realistic retro-futuristic two-door grand touring coupe concept with a long flat hood, a fastback roof, a slim full-width LED light bar instead of round headlights, a black lower intake and 18 inch polished wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, dark green paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
   "cands": 4
  },
  {
@@ -253,13 +258,15 @@
   "id": "vogtcs",
   "seed": 3050,
   "prompt": "three-quarter front view from the front left corner of a realistic aggressive performance sedan concept with sharp creased body panels, a smooth closed nose without a grille, slim LED headlights and large lower side air intakes, 20 inch dark wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, yellow paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
-  "cands": 4
+  "cands": 4,
+  "pick": 0
  },
  {
   "id": "vanguardh",
   "seed": 3040,
   "prompt": "three-quarter front view from the front left corner of a realistic custom restomod coupe with a long hood, a low chopped roof, angular modern light bar headlights and a supercharger poking through the hood, 18 inch dark wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, white paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
-  "cands": 4
+  "cands": 4,
+  "pick": 1
  },
  {
   "id": "velocitas",
@@ -275,7 +282,8 @@
   "id": "ardentevo",
   "seed": 3090,
   "prompt": "three-quarter front view from the front left corner of a realistic extreme track-focused mid-engine sports car with a large swan-neck rear wing, front canards, large side intakes and exposed carbon fiber parts, 20 inch black center-lock wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, gunmetal grey paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
-  "cands": 4
+  "cands": 4,
+  "pick": 3
  },
  {
   "id": "kaldrav",
