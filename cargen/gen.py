@@ -148,7 +148,12 @@ def main():
         d = os.path.join(OUT, j['id']); os.makedirs(d, exist_ok=True)
         info_p = os.path.join(d, 'info.json')
         info = json.load(open(info_p)) if os.path.exists(info_p) else {}
-        if (info.get('glb') or (j.get('image_only') and os.path.exists(os.path.join(d, 'concept.png')))) and not j.get('redo'): log('skip', j['id']); continue
+        same = info.get('prompt') == j['prompt']
+        if same and (info.get('glb') or (j.get('image_only') and os.path.exists(os.path.join(d, 'concept.png')))) and not j.get('redo'): log('skip', j['id']); continue
+        if not same:
+            for fn in ('concept.png', 'model.glb'):
+                if os.path.exists(os.path.join(d, fn)): os.remove(os.path.join(d, fn))
+            info = {}
         seed = int(j.get('seed', 7))
         img = os.path.join(d, 'concept.png')
         if not os.path.exists(img) or j.get('redo'):
