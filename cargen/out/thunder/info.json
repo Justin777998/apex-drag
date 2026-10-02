@@ -1,5 +1,7 @@
 {
- "image_space": null,
+ "image_space": "black-forest-labs/FLUX.1-schnell",
  "prompt": "studio product photograph of a realistic modern muscle car with long hood and power bulge, aggressive wide front with large black grille, short rear deck, 20 inch black wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, gloss black paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
- "time": "2026-10-01T13:23:45Z"
+ "time": "2026-10-02T06:00:53Z",
+ "model_space": "trellis-community/TRELLIS",
+ "glb": true
 }
