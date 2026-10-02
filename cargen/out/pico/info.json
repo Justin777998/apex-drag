@@ -1,7 +1,7 @@
 {
  "image_space": "black-forest-labs/FLUX.1-schnell",
- "prompt": "studio product photograph of a realistic small five-door city car hatchback, cute rounded shape, 16 inch alloy wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, bright red paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
- "time": "2026-10-02T06:03:28Z",
  "model_space": "trellis-community/TRELLIS",
- "glb": true
+ "glb": true,
+ "prompt": "studio product photograph of a realistic tiny two-door city car with a boxy cute design and round headlights set wide apart, 15 inch wheels, original concept design that does not resemble any existing production car, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, bright red paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
+ "time": "2026-10-02T06:20:36Z"
 }

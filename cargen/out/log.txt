@@ -957,3 +957,362 @@
   /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
 06:16:36 glb ok trellis-community/TRELLIS 1986340
 06:16:36 === done
+06:18:45 === run 53 jobs, token: True
+06:18:45 skip bg_city_night
+06:18:45 skip bg_harbor_night
+06:18:45 skip bg_airfield_dusk
+06:18:45 skip bg_industrial_night
+06:18:45 skip bg_bridge_night
+06:18:45 skip bg_dragway_dusk
+06:18:45 skip tex_asphalt
+06:18:45 skip tex_concrete
+06:18:45 skip tex_brick
+06:18:45 skip tex_metal
+06:18:45 skip garage_bg
+06:18:45 skip falke_m_a
+06:18:46 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:18:49 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/kestrel/concept.png
+06:18:50 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:19:12 glb ok trellis-community/TRELLIS 1669872
+06:19:12 skip sakura
+06:19:13 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:19:16 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/thunder/concept.png
+06:19:17 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:19:38 glb ok trellis-community/TRELLIS 1429376
+06:19:38 skip falke_r5
+06:19:38 skip hayate
+06:19:38 skip velocita_v12
+06:19:38 skip aurora
+06:19:39 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:19:42 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/vanguard70/concept.png
+06:19:43 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:20:07 glb ok trellis-community/TRELLIS 1819140
+06:20:08 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:20:11 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/pico/concept.png
+06:20:12 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:20:36 glb ok trellis-community/TRELLIS 1703488
+06:20:36 skip kaze
+06:20:37 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:20:40 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/serafina/concept.png
+06:20:41 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:21:05 glb ok trellis-community/TRELLIS 1907064
+06:21:05 skip vogt3
+06:21:05 skip granit
+06:21:05 skip lumen
+06:21:05 skip orvel
+06:21:06 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:21:09 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/nordwind/concept.png
+06:21:10 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:21:31 glb ok trellis-community/TRELLIS 1590464
+06:21:32 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:21:35 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/ostrava/concept.png
+06:21:36 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:22:00 glb ok trellis-community/TRELLIS 1870028
+06:22:00 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:22:09 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/tsubame/concept.png
+06:22:10 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:22:33 glb ok trellis-community/TRELLIS 1724548
+06:22:33 skip falkes
+06:22:33 skip vanguard64
+06:22:33 skip granitv6
+06:22:33 skip raiden
+06:22:34 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:22:37 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/vogt8/concept.png
+06:22:38 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:22:59 glb ok trellis-community/TRELLIS 1358024
+06:23:00 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:23:03 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/granitv8/concept.png
+06:23:04 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:23:25 glb ok trellis-community/TRELLIS 1512796
+06:23:25 skip serafinav6
+06:23:25 skip ardent
+06:23:26 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:23:30 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/kazet/concept.png
+06:23:30 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:23:51 glb ok trellis-community/TRELLIS 1466740
+06:23:52 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:23:55 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/thunderwb/concept.png
+06:23:56 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:24:17 glb ok trellis-community/TRELLIS 1551616
+06:24:17 skip ardentt
+06:24:17 skip granith
+06:24:17 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:24:21 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/vogtcs/concept.png
+06:24:21 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:24:43 glb ok trellis-community/TRELLIS 1611796
+06:24:43 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:24:47 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/vanguardh/concept.png
+06:24:47 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:25:08 glb ok trellis-community/TRELLIS 1470724
+06:25:09 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:25:12 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/velocitas/concept.png
+06:25:13 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:25:34 glb ok trellis-community/TRELLIS 1631260
+06:25:34 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:25:38 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/serafinac/concept.png
+06:25:38 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:26:02 glb ok trellis-community/TRELLIS 1910216
+06:26:02 skip ardentevo
+06:26:02 skip kaldrav
+06:26:02 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:26:06 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/velocita80/concept.png
+06:26:07 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:26:28 glb ok trellis-community/TRELLIS 1554720
+06:26:28 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:26:32 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/nyx/concept.png
+06:26:32 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:26:54 glb ok trellis-community/TRELLIS 1650148
+06:26:54 skip graf
+06:26:55 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:26:58 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/thunderdp/concept.png
+06:26:59 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:27:22 glb ok trellis-community/TRELLIS 1869004
+06:27:22 skip vanguardpm
+06:27:22 === done

@@ -1,7 +1,7 @@
 {
  "image_space": "black-forest-labs/FLUX.1-schnell",
- "prompt": "studio product photograph of a realistic small two-seat roadster with the soft top down, long hood, rounded fenders, 17 inch wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, red paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
- "time": "2026-10-02T06:04:27Z",
  "model_space": "trellis-community/TRELLIS",
- "glb": true
+ "glb": true,
+ "prompt": "studio product photograph of a realistic small modern two-seat roadster with the soft top down, smooth wedge shape and slim headlights, 17 inch wheels, original concept design that does not resemble any existing production car, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, red paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
+ "time": "2026-10-02T06:21:05Z"
 }

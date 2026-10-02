@@ -1,7 +1,7 @@
 {
  "image_space": "black-forest-labs/FLUX.1-schnell",
- "prompt": "studio product photograph of a realistic classic muscle fastback from the early 1970s, long hood, chrome bumpers, round headlights set in a wide black grille, 15 inch chrome wheels, original design without any real brand, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, dark red paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
- "time": "2026-10-02T06:03:02Z",
  "model_space": "trellis-community/TRELLIS",
- "glb": true
+ "glb": true,
+ "prompt": "studio product photograph of a realistic classic early-1970s style muscle fastback with a long hood, rectangular headlights, a dark recessed grille and a chrome bumper, 15 inch chrome wheels, original concept design that does not resemble any existing production car, front three-quarter view from the front left showing the headlights and the whole left side, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, dark red paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
+ "time": "2026-10-02T06:20:07Z"
 }
