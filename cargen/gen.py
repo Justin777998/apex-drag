@@ -149,12 +149,34 @@ def main():
         info_p = os.path.join(d, 'info.json')
         info = json.load(open(info_p)) if os.path.exists(info_p) else {}
         same = info.get('prompt') == j['prompt']
+        seed = int(j.get('seed', 7))
+        # Kandidaten-Modus: erst mehrere Konzeptbilder (cand_<k>.png), Auswahl per "pick": k, dann 3D
+        if j.get('cands'):
+            if not same:
+                for fn in os.listdir(d):
+                    if fn.startswith('cand_') or fn in ('concept.png', 'model.glb'): os.remove(os.path.join(d, fn))
+                info = {}
+            if 'pick' not in j:
+                for k in range(int(j['cands'])):
+                    cp = os.path.join(d, 'cand_%d.png' % k)
+                    if not os.path.exists(cp): make_image(j['prompt'], cp, seed + k, j.get('w', 1024), j.get('h', 768))
+                info['prompt'] = j['prompt']; info['time'] = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+                json.dump(info, open(info_p, 'w'), indent=1); continue
+            pk = int(j['pick'])
+            if info.get('picked') == pk and info.get('glb'): log('skip', j['id']); continue
+            cp = os.path.join(d, 'cand_%d.png' % pk)
+            if not os.path.exists(cp): make_image(j['prompt'], cp, seed + pk, j.get('w', 1024), j.get('h', 768))
+            if os.path.exists(cp):
+                shutil.copy(cp, os.path.join(d, 'concept.png'))
+                info['model_space'] = make_3d(cp, os.path.join(d, 'model.glb'), seed + pk)
+                info['glb'] = bool(info['model_space']); info['picked'] = pk
+            info['prompt'] = j['prompt']; info['time'] = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+            json.dump(info, open(info_p, 'w'), indent=1); continue
         if same and (info.get('glb') or (j.get('image_only') and os.path.exists(os.path.join(d, 'concept.png')))) and not j.get('redo'): log('skip', j['id']); continue
         if not same:
             for fn in ('concept.png', 'model.glb'):
                 if os.path.exists(os.path.join(d, fn)): os.remove(os.path.join(d, fn))
             info = {}
-        seed = int(j.get('seed', 7))
         img = os.path.join(d, 'concept.png')
         if not os.path.exists(img) or j.get('redo'):
             info['image_space'] = make_image(j['prompt'], img, seed, j.get('w', 1024), j.get('h', 768))
