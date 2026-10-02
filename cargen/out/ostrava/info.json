@@ -1,4 +1,7 @@
 {
  "prompt": "three-quarter front view from the front left corner of a realistic small modern two-door grand tourer coupe with sharp angular creases, a long hood, slim LED headlights, a short fastback roof and 18 inch silver wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, yellow paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
- "time": "2026-10-02T06:48:56Z"
+ "time": "2026-10-02T06:54:07Z",
+ "model_space": "trellis-community/TRELLIS",
+ "glb": true,
+ "picked": 3
 }

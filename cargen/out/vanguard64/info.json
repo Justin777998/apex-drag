@@ -1,4 +1,7 @@
 {
  "prompt": "three-quarter front view from the front left corner of a realistic retro-futuristic two-door grand touring coupe concept with a long flat hood, a fastback roof, a slim full-width LED light bar instead of round headlights, a black lower intake and 18 inch polished wheels, the headlights, the front bumper and the whole left side are visible, studio product photograph, original concept design that does not resemble any existing production car, the entire car is visible and centered with space around it, plain light grey seamless background, soft even studio lighting, dark green paint, no logos, no emblems, no badges, no text, no license plate, photorealistic, sharp focus",
- "time": "2026-10-02T06:49:37Z"
+ "time": "2026-10-02T06:54:29Z",
+ "model_space": "trellis-community/TRELLIS",
+ "glb": true,
+ "picked": 1
 }

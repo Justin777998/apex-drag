@@ -2076,3 +2076,95 @@
 06:50:44 skip thunderdp
 06:50:44 skip vanguardpm
 06:50:44 === done
+06:53:40 === run 53 jobs, token: True
+06:53:40 skip bg_city_night
+06:53:40 skip bg_harbor_night
+06:53:40 skip bg_airfield_dusk
+06:53:40 skip bg_industrial_night
+06:53:40 skip bg_bridge_night
+06:53:40 skip bg_dragway_dusk
+06:53:40 skip tex_asphalt
+06:53:40 skip tex_concrete
+06:53:40 skip tex_brick
+06:53:40 skip tex_metal
+06:53:40 skip garage_bg
+06:53:40 skip falke_m_a
+06:53:40 skip kestrel
+06:53:40 skip sakura
+06:53:40 skip thunder
+06:53:40 skip falke_r5
+06:53:40 skip hayate
+06:53:40 skip velocita_v12
+06:53:40 skip aurora
+06:53:40 skip vanguard70
+06:53:40 skip pico
+06:53:40 skip kaze
+06:53:40 skip serafina
+06:53:40 skip vogt3
+06:53:40 skip granit
+06:53:40 skip lumen
+06:53:40 skip orvel
+06:53:40 skip nordwind
+06:53:42 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:54:07 glb ok trellis-community/TRELLIS 1616868
+06:54:07 skip tsubame
+06:54:07 skip falkes
+06:54:08 API trellis-community/TRELLIS 
+  /start_session () -> []
+  /lambda () -> []
+  /lambda_1 () -> []
+  /preprocess_image (image:Image=!) -> ['Image']
+  /preprocess_images (images:Gallery=[]) -> ['Gallery']
+  /get_seed (randomize_seed:Checkbox=True, seed:Slider=0) -> ['Slider']
+  /generate_and_extract_glb (image:Image=!, multiimages:Gallery=[], seed:Slider=0, ss_guidance_strength:Slider=7.5, ss_sampling_steps:Slider=12, slat_guidance_strength:Slider=3.0, slat_sampling_steps:Slider=12, multiimage_algo:Radio=stochastic, mesh_simplify:Slider=0.95, texture_size:Slider=1024) -> ['Video', 'Litmodel3d', 'Downloadbutton']
+  /lambda_2 () -> ['Downloadbutton']
+  /lambda_3 () -> ['Downloadbutton', 'Downloadbutton']
+  /extract_gaussian () -> ['Litmodel3d', 'Downloadbutton']
+  /lambda_4 () -> ['Downloadbutton']
+  /lambda_5 () -> ['Downloadbutton', 'Downloadbutton']
+06:54:29 glb ok trellis-community/TRELLIS 1424840
+06:54:29 skip granitv6
+06:54:29 skip raiden
+06:54:29 skip vogt8
+06:54:29 skip granitv8
+06:54:29 skip serafinav6
+06:54:29 skip ardent
+06:54:29 skip kazet
+06:54:29 skip thunderwb
+06:54:29 skip ardentt
+06:54:29 skip granith
+06:54:29 skip vogtcs
+06:54:29 skip vanguardh
+06:54:29 skip velocitas
+06:54:29 skip serafinac
+06:54:30 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:54:34 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/ardentevo/cand_0.png
+06:54:34 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:54:38 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/ardentevo/cand_1.png
+06:54:39 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:54:42 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/ardentevo/cand_2.png
+06:54:43 API black-forest-labs/FLUX.1-schnell 
+  /infer (prompt:Textbox=!, seed:Slider=0, randomize_seed:Checkbox=True, width:Slider=1024, height:Slider=1024, num_inference_steps:Slider=4) -> ['Image', 'Slider']
+06:54:47 image ok black-forest-labs/FLUX.1-schnell /home/runner/work/apex-drag/apex-drag/cargen/out/ardentevo/cand_3.png
+06:54:47 skip kaldrav
+06:54:47 skip velocita80
+06:54:47 skip nyx
+06:54:47 skip graf
+06:54:47 skip thunderdp
+06:54:47 skip vanguardpm
+06:54:47 === done
